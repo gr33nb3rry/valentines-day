@@ -1,0 +1,86 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 60px;
+}
+.title {
+    font-size: 24px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#text {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+.love-you {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#image {
+    height: 45vh;
+    border: 20px solid white;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,rgba(45, 35, 66, 0.3) 0 14px 26px -6px,#D6D6E7 0 -6px 0 inset;
+}
+button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.button-30 {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #5e5e5e;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+}
+.button-30:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+.button-30:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+.button-30:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
